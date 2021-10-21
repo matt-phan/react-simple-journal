@@ -9,7 +9,9 @@ function MainContent(): JSX.Element {
       <JournalEntry
         title={"Discovering React components"}
         tags={["react", "components", "reusability"]}
-        body={"Today, I discovered reusable React components - I love them! It makes things so much more convenient!"}
+        body={
+          "Today, I discovered reusable React components - I love them! It makes things so much more convenient!"
+        }
         views={1}
         likes={1}
         postDate={{ month: "June", day: 13, year: 2021 }}
@@ -25,26 +27,26 @@ function MainContent(): JSX.Element {
         postDate={{ month: "March", day: 3, year: 2003 }}
       />
       <JournalEntry
-      title={"Writing poetry"}
-      tags={["poetry", "meta"]}
-      body={
-        "Being creative... I'd like to do more of it. I'll write some haikus!"
-      }
-      views={93}
-      likes={11}
-      postDate={{ month: "March", day: 2, year: 2003}}
+        title={"Writing poetry"}
+        tags={["poetry", "meta"]}
+        body={
+          "Being creative... I'd like to do more of it. I'll write some haikus!"
+        }
+        views={93}
+        likes={11}
+        postDate={{ month: "March", day: 2, year: 2003 }}
       />
       <JournalEntry
-      title={"The trolley problem"}
-      tags={["philosophy"]}
-      body={
-        "I came across the Trolley Problem recently. I found it deeply troubling... why is it called 'the Trolley Problem' when it's actually about trains?"
-      }
-      views={2}
-      likes={0}
-      postDate={{ month: "July", day: 28, year: 2003}}
+        title={"The trolley problem"}
+        tags={["philosophy"]}
+        body={
+          "I came across the Trolley Problem recently. I found it deeply troubling... why is it called 'the Trolley Problem' when it's actually about trains?"
+        }
+        views={2}
+        likes={0}
+        postDate={{ month: "July", day: 28, year: 2003 }}
       />
-    </main> 
+    </main>
   );
 }
 
